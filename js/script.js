@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const imageElement = elements.images[image];
 
         if (imageElement) {
-            imageElement.src = `./assets/images/${path}`;
+            imageElement.src = `/pepper/assets/images/${path}`;
             imageElement.style.filter = isRedScale
                 ? "grayscale(100%) sepia(100%) saturate(500%) hue-rotate(-50deg)"
                 : "none";
