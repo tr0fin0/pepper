@@ -2,7 +2,7 @@
     /* colors */
     --color-background: #1d1f20;
 
-    --color-border: #fff;
+    --color-border: #7b7265;
 
     --color-button: #007bff;
     --color-button-hover: #0056b3;
@@ -64,6 +64,10 @@ body {
 
     font-family: var(--font-family);
     text-align: center;
+}
+
+.message-headline {
+    color: var(--color-text);
 }
 
 #container-game {
